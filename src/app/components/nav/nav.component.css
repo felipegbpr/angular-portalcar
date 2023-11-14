@@ -1,0 +1,115 @@
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation
+*/
+
+.nav {
+  display: flex;
+  background-color: rgba(0, 0, 0, .8);
+  align-items: center;
+  justify-content: center;	
+}
+
+#menu-nav {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-bottom: 1px;
+}
+
+#top-menu a:hover,
+#top-menu .active,
+#top-menu .active:focus,
+#top-menu li:hover>a {
+  color: #3486eb;
+  border-bottom: 2px solid #3486eb;
+}
+
+
+#top-menu ul { 
+	list-style: none;
+}
+
+.list-menu-cars {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	
+	margin: 0 auto;
+	margin-right: 425px;
+}
+
+.list-menu-cars li {
+  text-decoration: none;
+  padding: 10px 15px;
+  position: center;
+  font-weight: bold;
+  font-size: 10pt;
+  cursor: pointer;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+     display: block;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.title-site {
+  font-weight: bold;
+  font-size: 12pt;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.button-icon {
+  color: #fff;
+}
+
+.icon {
+  list-style: none;
+  margin: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu-icons {
+  display: flex;
+  align-items: center;
+  text-align: center;	
+  border-left: 1px solid #3486eb;
+  height: 100%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.menu-icons > span {
+  font-size: 10pt;
+}
+
+.menu-icons > .icon {
+  padding: 0 3px;
+  cursor: pointer;
+}
+
+.menu-icons > .icon, span {
+  cursor: pointer;
+}
+
+.icon-span {
+  position: relative;
+  top: 1px;
+  right: 1px;
+}
+
+#logo-site {
+  height: 30px;
+  width: 30px;
+  margin-right: 3px;
+}
+
+
+
+

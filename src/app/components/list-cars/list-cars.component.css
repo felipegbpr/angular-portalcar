@@ -1,0 +1,55 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&family=Bebas+Neue&display=swap'); */
+
+@font-face {
+    font-family: 'Sarabun', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+}
+
+#cars-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 400px;
+  margin: 8px;
+}
+
+.card-image {
+  height: 250px;
+}
+
+.car-info {
+  list-style: none;
+}
+
+.car-info, li {
+  color: #302f2f;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 10pt;
+  position: relative;
+  right: 10px;
+}
+
+.car-info li span {
+  font-weight: bold;
+}
+
+button {
+  position: relative;
+  border: none;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 3px;
+  margin-right: 3px;
+  left: 15px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}

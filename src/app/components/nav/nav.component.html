@@ -1,0 +1,39 @@
+<nav class="fixed-top" id="navbar">
+  <mat-toolbar id="menu-nav" color="primary" >
+
+    <span class="title-site" routerLink="/"><img id="logo-site" src="../../../assets/img/logo.png" alt="logo">Portal Car</span>
+    <span class="example-spacer"></span>
+
+    <div id="top-menu">
+      <ul class="list-menu-cars">
+        <li routerLink="/">
+          <a>Home</a>
+        </li>
+
+         <li class="dropdown" routerLink="/list-cars">
+    			<a>Carros</a>
+    			<ul class="dropdown-menu clearfix" role="menu">
+    				<li><a>Vender</a></li>
+    				<li><a>Comprar</a></li>
+    			</ul>
+        </li>
+
+        <li routerLink="/brands">
+          <a>Marcas</a>
+        </li>
+        <li routerLink="/services-offered">
+          <a>Serviços</a>
+        </li>
+        <li routerLink="/about">
+          <a>Sobre</a>
+        </li>
+     </ul>
+    </div>
+    <div class="menu-icons">
+      <mat-icon class="icon">account_circle</mat-icon><span class="icon-span">Entrar</span>
+      <mat-icon class="icon">favorite</mat-icon>
+      <mat-icon class="icon">forum</mat-icon>
+      <mat-icon class="icon">notifications</mat-icon>
+    </div>
+  </mat-toolbar>
+</nav>

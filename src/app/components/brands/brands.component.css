@@ -1,0 +1,27 @@
+
+
+table {
+  width: 547px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+  bottom: 100px;
+}
+
+
+.register-button {
+  color: #fff;
+  background-color: green;
+
+  position: relative;
+  left: 488px;
+  padding: 5px 0;
+  padding-right: 246px;
+  padding-left: 240px;
+
+  font-weight: bold;
+
+  top: 59px;
+  border-style: none;
+}

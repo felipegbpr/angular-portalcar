@@ -1,0 +1,38 @@
+{
+  "brands": [
+    { "id": 1, "name": "BMW", "country": "Alemanha" },
+    { "id": 2, "name": "Chevrolet", "country": "Estados Unidos" },
+    { "id": 4, "name": "Fiat", "country": "Itália" },
+    { "id": 5, "name": "Ferrari", "country": "Itália" },
+    { "id": 6, "name": "Lamborghini", "country": "Itália" },
+    { "id": 7, "name": "Audi", "country": "Alemanha" },
+    { "id": 8, "name": "Volkswagen", "country": "Alemanha" }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "name": "Ferrari Italia 458",
+      "color": "Vermelha",
+      "model": "Esportivo",
+      "brand": "Ferrari",
+      "photo": "/assets/img/cars/ferrari-italia458.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Porsche 911",
+      "color": "Amarela",
+      "model": "Esportivo",
+      "brand": "Porsche",
+      "photo": "/assets/img/cars/porsche911.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mustang GT",
+      "color": "Preta",
+      "model": "Esportivo",
+      "brand": "Ford",
+      "photo": "/assets/img/cars/mustang-gt.jpg"
+    }
+  ],
+  "profile": { "name": "typicode" }
+}
