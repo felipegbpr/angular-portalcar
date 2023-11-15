@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginModule } from './components/login/login.module';
 
 
 
@@ -38,7 +39,8 @@ import { FooterComponent } from './components/footer/footer.component';
     MatToolbarModule,
     MatIconModule,
     MatSnackBarModule,
-    MatMenuModule
+    MatMenuModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
